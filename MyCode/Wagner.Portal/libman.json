@@ -1,0 +1,16 @@
+﻿{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "metro@4.2.48",
+      "files": [ "css/metro-all.css", "js/metro.js", "mif/metro.woff" ],
+      "destination": "wwwroot/lib/metro"
+    },
+    {
+      "library": "jquery@3.4.1",
+      "files": [ "jquery.js" ],
+      "destination": "wwwroot/lib/jquery"
+    }
+  ]
+}
